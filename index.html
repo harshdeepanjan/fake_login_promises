@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promise Login Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="login-card">
+    <div class="js-badge">JS</div>
+    <h1>Promise Login Demo</h1>
+    <p class="subtitle">A small project to practise JavaScript Promises</p>
+
+    <form id="loginForm">
+      <label for="username">Username</label>
+      <input id="username" type="text" placeholder="Try admin" autocomplete="username" required>
+
+      <label for="password">Password</label>
+      <input id="password" type="password" placeholder="Try 1234" autocomplete="current-password" required>
+
+      <button id="loginBtn" type="submit">Log in</button>
+    </form>
+
+    <p id="message" class="message" role="status" aria-live="polite">Enter admin / 1234 to test success.</p>
+    <p class="demo-note">Demo only — credentials are checked in your browser, not on a real server.</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
